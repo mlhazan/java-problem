@@ -28,9 +28,10 @@ public class Problem_2_2 {
                if (newFib % 2 == 0) {
                     evenSum += newFib;
                }
+               System.out.println(newFib);
           }
 
-          System.out.println(evenSum);
+          System.out.println("sum of the even Fibonacci numbers: " + evenSum);
 
      }
 }

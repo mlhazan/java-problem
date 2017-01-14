@@ -21,7 +21,9 @@ public class Problem_2_1 {
                System.out.println(m);
                if (m % 2 == 0) {
                     total = total + m;
+                    
                }
+               if(total>=4_000_000) break;
           }
           System.out.println("Total = " + total);
      }
