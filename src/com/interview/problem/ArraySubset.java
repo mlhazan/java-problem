@@ -38,7 +38,7 @@ public class ArraySubset {
           list.add(1);
           list.add(2);
           list.add(3);
-          list.add(4);
+          list.add(4);list.add(5);
          
           List out = aux.allSubSets(list);
           System.out.println(out);
